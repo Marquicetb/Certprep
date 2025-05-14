@@ -13,3 +13,10 @@ p {
 #sidenote {
     background-color: gainsboro;
 }
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
