@@ -12,12 +12,17 @@
     <!-- insert form here-->
     <form action="thankyou.html" method="post"
     oninput="fn.value = firstname.value + ''+ lastname.value ">
+    <fieldset>
+        <legend>Presonal</legend>
         <label for="firstname">First name</label>
          <input type="text"name="firstname" id="firstname" /> <br />    
          <label for="lastname">Last name</label>
          <input type="text"name="lastname" id="lastname" /> <br />   
           <label for="email">Email address</label>
          <input type="email" name="email" id="email" /> <br />   
+         </fieldset>
+         <fieldset>
+             <legend>Questions?</legend>
          <p> How did  you found out about us ?</p>
          <select name="found" id="found">
             <optgroup label="Media">
@@ -42,6 +47,7 @@
             <option value="flute"></option>
             <option value="trumpet"></option>
          </datalist>
+         </fieldset>
          <p> Add Commets below</p>
          <textarea rows="6" cols="50" maxlength="255"></textarea>
          <button name="showimage" onclick="">showimage</button>
