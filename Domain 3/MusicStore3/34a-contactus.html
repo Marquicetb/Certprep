@@ -10,7 +10,8 @@
     We look forward to hearing from you!</p>
 
     <!-- insert form here-->
-    <form action="thankyou.html" method="post">
+    <form action="thankyou.html" method="post"
+    oninput="fn.value = firstname.value + ''+ lastname.value ">
         <label for="firstname">First name</label>
          <input type="text"name="firstname" id="firstname" /> <br />    
          <label for="lastname">Last name</label>
@@ -19,14 +20,20 @@
          <input type="email" name="email" id="email" /> <br />   
          <p> How did  you found out about us ?</p>
          <select name="found" id="found">
+            <optgroup label="Media">
             <option value="TV">TV</option>
-            <option  value="Web" selected>Wed</option>
+            <option  value="Radio">Radio</option>
+            </optgroup>
+            
               <option  value="Other">Other</option>
+                 <option  value="Google">Google</option>
+                    <option  value="Bing">Bing</option>
          </select>
          <p> Add Commets below</p>
          <textarea rows="6" cols="50" maxlength="255"></textarea>
          <button name="showimage" onclick="">showimage</button>
          <input type="submit" name="submitform" value="send it"/>
+         <output name="fn"></output>
     </form>
     
 </body>
