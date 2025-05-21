@@ -11,11 +11,11 @@ p {
 figcaption {
     color: navy;
     font-weight: bold;
-    /*background-color: #AAEEFF;*/
+    background-color: #AAEEFF;
 }
 .sale {
     font-weight: bold;
-    background-color: #AAEEFF;
+    background-color: lch(90.28% 22.77 221.16);
 }
 #sidenote {
     background-color: #DDDDDD;
