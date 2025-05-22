@@ -30,3 +30,7 @@ a:hover {
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
 }
+td.vobot{
+  vertical-align: bottom;  
+  height: 30px;
+}
