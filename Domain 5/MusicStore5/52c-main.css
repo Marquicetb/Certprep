@@ -33,3 +33,6 @@ a:hover {
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
 }
+#pagewidth {
+    width: 500px;
+}
