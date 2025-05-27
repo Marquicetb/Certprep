@@ -25,6 +25,13 @@ figcaption {
     background-color: #DDDDDD;
     display: inline;
     font-weight: bold;
+    border: 2px solid navy;
+    color: #f7d2aa ;
+    float:right;
+    width: 200px;
+    height: 200px;
+    border-color: darkblue;
+    border-style: ridge;
 }
 a {
     text-decoration: none;
