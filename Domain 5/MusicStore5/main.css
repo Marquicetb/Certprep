@@ -43,6 +43,8 @@ figcaption {
     float:right;
     width: 200px;
     height: 200px;
+    border-color: darkblue;
+    border-style: ridge;
 }
 #pagewidth {
     width:500px;
