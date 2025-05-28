@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(190, 162, 119);
+    background-color: rgb(119, 0, 56);
 }
 p{
  color:crimson;
@@ -11,5 +11,5 @@ p{
 a:hover {
     text-decoration: underline;
     font-weight: bolder;
-    scrollbar-highlight-color: rgb(187, 211, 255);
+    lighting-color: rgb(0, 145, 31);
 }
