@@ -1,3 +1,15 @@
 body{
     background-color: blanchedalmond;
 }
+p{
+ color:crimson;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-style: initial;
+ font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+    scrollbar-highlight-color: rgb(187, 211, 255);
+}
