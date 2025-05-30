@@ -1,16 +1,16 @@
 body{
-    background-color: rgb(205, 129, 255);
+    background-color: rgb(129, 249, 255);
 }
 p{
- color:rgb(241, 136, 255);
+ color:rgb(17, 241, 212);
  font-family: Georgia, 'Times New Roman', Times, serif;
  font-style: initial;
  font-size: 15px;
- background-color: rgb(254, 255, 196);
+ background-color: rgb(249, 251, 100);
 }
 
 a:hover {
     text-decoration: underline;
     font-weight: bolder;
-    lighting-color: rgb(0, 235, 215);
+    lighting-color: rgb(148, 220, 214);
 }
