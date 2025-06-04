@@ -22,7 +22,7 @@ div {
 }
 @media (max-width: 768px) {
   aside {
-    aside {
+
          flex: 1;
       border: 2px solid #ffffff;
       padding: 15px;
@@ -30,11 +30,12 @@ div {
       background-color: #1e008b;
       border-radius: 8px;
       }
+      
         aside img {
       max-width: 160%;
       height: auto;
       border-radius: 5px;
       margin-bottom: 10px;
-    }
+    
   }
   }
