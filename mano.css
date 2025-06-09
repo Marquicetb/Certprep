@@ -1,42 +1,46 @@
 body {
-  background: linear-gradient(to bottom, #FF218C,#FFD800,#21B1FF);
+  background: linear-gradient(to bottom, #FF218C, #FFD800, #21B1FF);
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-p{
- color:rgb(255, 255, 255);
- font-family: Georgia, 'Times New Roman', Times, serif;
- font-style: initial;
- font-size: 15px;
- background-color: rgb(3, 44, 120);
+p {
+  color: #ffffff;
+  font-style: normal; /* Changed from 'initial' to 'normal' */
+  font-size: 15px;
+  background-color: rgb(3, 44, 120);
+  padding: 10px;
 }
 
 a:hover {
-    text-decoration: underline;
-    font-weight: bolder;
-    lighting-color: rgb(187, 209, 255);
+  text-decoration: underline;
+  font-weight: bold;
+  /* Removed 'lighting-color': it's not a valid CSS property */
+  color: rgb(187, 209, 255); /* Added color change to reflect your intent */
 }
+
 div {
   border-top: 2px solid rgb(0, 6, 87);
   border-right: 4px solid rgb(0, 6, 87);
   border-bottom: 2px solid rgb(0, 6, 87);
-  border-left: 4px double solid rgb(0, 6, 87);
+  border-left: 4px double rgb(0, 6, 87); /* Removed invalid 'solid' in 'double solid' */
 }
+
 @media (max-width: 768px) {
   aside {
+    flex: 1;
+    border: 2px solid #ffffff;
+    padding: 15px;
+    margin-left: 20px;
+    background-color: #1e008b;
+    border-radius: 8px;
+  }
 
-         flex: 1;
-      border: 2px solid #ffffff;
-      padding: 15px;
-      margin-left: 20px;
-      background-color: #1e008b;
-      border-radius: 8px;
-      }
-      
-        aside img {
-      max-width: 160%;
-      height: auto;
-      border-radius: 5px;
-      margin-bottom: 10px;
-    
+  aside img {
+    max-width: 100%; /* Changed from 160% to 100% to avoid overflow */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
   }
-  }
+}
