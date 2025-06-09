@@ -1,5 +1,7 @@
 body{
-   background: radial-gradient(circle, #09006f, #0014f3);
+  #grad {
+  background-image: linear-gradient(#D60270, #9B4F96 ,#0038A8);
+}
 }
 p{
  color:rgb(255, 255, 255);
