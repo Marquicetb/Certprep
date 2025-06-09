@@ -44,7 +44,3 @@ div {
     margin-bottom: 10px;
   }
 }
-.myself {
-  border: 3px solid black;   /* Thickness, style, color */
-  border-radius: 8px;        /* Optional: rounded corners */
-}
