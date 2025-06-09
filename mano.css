@@ -1,8 +1,7 @@
-body{
-  #grad {
-  background-image: linear-gradient(#D60270, #9B4F96 ,#0038A8);
+body {
+  background: linear-gradient(to bottom, #FF218C,#FFD800,#21B1FF);
 }
-}
+
 p{
  color:rgb(255, 255, 255);
  font-family: Georgia, 'Times New Roman', Times, serif;
