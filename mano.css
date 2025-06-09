@@ -1,11 +1,8 @@
-body {
-  body {
+ body {
   background: linear-gradient(to bottom,#FF218C, #FFD800,  rgb(0, 204, 255));
   background-repeat: no-repeat;
   height: 100vh; /* Full viewport height */
   margin: 0;
-}
-
 }
 
 p {
