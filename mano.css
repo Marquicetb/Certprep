@@ -1,9 +1,11 @@
- body {
-  background: linear-gradient(to bottom,#FF218C, #FFD800,  rgb(0, 204, 255));
+body {
+  background: linear-gradient(to bottom, #FF218C, #FFD800, rgb(0, 204, 255));
   background-repeat: no-repeat;
-  height: 100vh; /* Full viewport height */
+  background-size: cover;    /* Ensures background fills area */
   margin: 0;
+  min-height: 100vh;         /* Covers full page even if content grows */
 }
+
 
 p {
   color: #ffffff;
