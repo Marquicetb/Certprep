@@ -1,8 +1,11 @@
 body {
-  background: linear-gradient(to bottom, #FF218C, #FFD800, #21B1FF);
+  body {
+  background: linear-gradient(to bottom,#FF218C, #FFD800,  rgb(0, 204, 255));
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
   margin: 0;
-  padding: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 }
 
 p {
@@ -30,7 +33,7 @@ div {
 @media (max-width: 768px) {
   aside {
     flex: 1;
-    border: 2px solid #ffffff;
+    border: 2px solid #fd6eff;
     padding: 15px;
     margin-left: 20px;
     background-color: #1e008b;
@@ -43,4 +46,8 @@ div {
     border-radius: 5px;
     margin-bottom: 10px;
   }
+}
+.myself {
+  border: 3px solid black;   /* Thickness, style, color */
+  border-radius: 8px;        /* Optional: rounded corners */
 }
