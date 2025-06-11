@@ -70,3 +70,48 @@ div {
   margin: 10px;
   min-width: 200px;
 }
+.site-footer {
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  border-top: 4px solid #fcfeff;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-container > div {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.site-footer a {
+  color: #b3d9ff;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-container > div {
+    margin: 15px 0;
+  }
+}

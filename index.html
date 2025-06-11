@@ -1,99 +1,141 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="mano.css"?>
-     <meta charset="UTF-8">
-     <meta name="veiwport" content="width=device-width, initial-scale=1.0">
-     <title>Drop down </title>
-   <style>
-/* Style The Dropdown Button */
-.dropbtn {
-  background-color: #7598ff;
-  color: rgb(25, 0, 255);
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down</title>
+    <link rel="stylesheet" type="text/css" href="mano.css">
+    <style>
+        /* Style The Dropdown Button */
+        .dropbtn {
+            background-color: #7598ff;
+            color: rgb(25, 0, 255);
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #001e81;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #001e81;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: rgb(0, 187, 255);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: rgb(0, 187, 255);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #2d81ff}
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #2d81ff;
+        }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-  background-color: rgb(0, 127, 237);
-}
-</style>
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+            background-color: rgb(0, 127, 237);
+        }
 
-<div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="Domain 1/MusicStore1/11a-scripts.html">Domain1</a>
-    <a href="Domain 2/MusicStore2/21a-index.html">Domain 2</a>
-    <a href="Domain 3/MusicStore3/31b-index.html">Domain 3</a>
-    <a href="Domain 4/Student/MusicStore4/index.html">Domain 4</a>
-    <a href="Domain 5/MusicStore5/54a-index.html">Domain 5</a>
-     <a href="Domain 6/index.html">Domain 6</a>
-  </div>
-</div>
- <meta charset="UTF-8">
-  <title>Simple Banner</title>
-  <style>
-    .banner {
-      background: linear-gradient(to right, #124877, #5aedf5); 
-      color: rgb(20, 39, 99);
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 2em;
-      font-family: Arial, sans-serif;
-      border-bottom: 5px solid #fcfeff;
-    }
+        /* Banner styles */
+        .banner {
+            background: linear-gradient(to right, #124877, #5aedf5); 
+            color: rgb(20, 39, 99);
+            padding: 40px 20px;
+            text-align: center;
+            font-size: 2em;
+            font-family: Arial, sans-serif;
+            border-bottom: 5px solid #fcfeff;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #124877;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-family: Arial, sans-serif;
+        }
+
+        nav a {
+            margin: 0 10px;
+        }
+
+        .my-image {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin-top: 20px;
+        }
     </style>
-    </head>
-    <body>
-      <div class="banner"> My site for the certification Practice</div>
-        <nav>
-            <a href="Domain 1/MusicStore1/11a-scripts.html"> Domain 1</a>
-            <a href="Domain 2/MusicStore2/21a-index.html"> Domain 2</a>
+</head>
+<body>
+    <div class="banner">My site for the certification Practice</div>
+
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+            <a href="Domain 1/MusicStore1/11a-scripts.html">Domain1</a>
+            <a href="Domain 2/MusicStore2/21a-index.html">Domain 2</a>
             <a href="Domain 3/MusicStore3/31b-index.html">Domain 3</a>
             <a href="Domain 4/Student/MusicStore4/index.html">Domain 4</a>
             <a href="Domain 5/MusicStore5/54a-index.html">Domain 5</a>
             <a href="Domain 6/index.html">Domain 6</a>
-        </nav>
-        <H1> Marquicetb Practice Centifaction</H1> 
-        <p> What i have learned is that there was a html script which is ues to show the progress i made . (note to self you are something and you have made some progress try again another time ) </p>
-           <img src="myself.png" alt="myself" class="my-image">
-           <div>
-            
-           </div>
-    </body>
+        </div>
+    </div>
+
+    <nav>
+        <a href="Domain 1/MusicStore1/11a-scripts.html">Domain 1</a>
+        <a href="Domain 2/MusicStore2/21a-index.html">Domain 2</a>
+        <a href="Domain 3/MusicStore3/31b-index.html">Domain 3</a>
+        <a href="Domain 4/Student/MusicStore4/index.html">Domain 4</a>
+        <a href="Domain 5/MusicStore5/54a-index.html">Domain 5</a>
+        <a href="Domain 6/index.html">Domain 6</a>
+    </nav>
+
+    <h1>Marquicetb Practice Certification</h1> 
+    <p>What I have learned is that there was a HTML script which is used to show the progress I made.
+        (Note to self: you are something and you have made some progress. Try again another time.)</p>
+
+    <img src="myself.png" alt="myself" class="my-image">
+
+  <footer class="site-footer">
+  <div class="footer-container">
+    <div>
+      <h3>About</h3>
+      <p>Practice site for certification learning and progress tracking.</p>
+    </div>
+    <div>
+      <h3>Links</h3>
+      <a href="#">Home</a><br>
+      <a href="#">Contact</a>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>Email: example@example.com</p>
+    </div>
+  </div>
+  <p>&copy; 2025 Marquicetb. All rights reserved.</p>
+</footer>
+
+</body>
 </html>
