@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom, #FF218C, #FFD800, rgb(0, 204, 255));
+  background: linear-gradient(to bottom, #b00b96, #420a55,#1e008b);
   background-repeat: no-repeat;
   background-size: cover;    /* Ensures background fills area */
   margin: 0;
@@ -50,4 +50,23 @@ div {
 .my-image {
   border: 3px solid black;   /* Thickness, style, color */
   border-radius: 8px;        /* Optional: rounded corners */
+}
+.content{
+  padding: 20px;
+  min-height: 80vh;
+}
+.site-footer{
+  background-color: darkblue;
+  color: whitesmoke;
+  padding: 30px 20px;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-container > div{
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
 }
