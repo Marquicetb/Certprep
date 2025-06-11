@@ -10,7 +10,7 @@ body {
 p {
   color: #ffffff;
   font-style: normal; /* Changed from 'initial' to 'normal' */
-  font-size: 15px;
+  font-size: 19px;
   background-color: rgb(3, 44, 120);
   padding: 10px;
 }
